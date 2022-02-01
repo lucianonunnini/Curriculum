@@ -81,9 +81,32 @@
 
             <article>
                 <h3>CURSOS Y CAPACITACIONES</h3>
+                <ul>
+                    <li><b>2021: </b> Fundamentos del Desarrollo Web</li>
+                    <li><b>2020: </b> Jornada de Capacitacion en IDE en NOA</li>
+                    <li><b>2016:</b> 1° Jornada de capacitación en SIG e IDE en Salta</li>
+                    <li><b>2016: </b> Analisis espacial de datos geograficos</li>
+                </ul>
+
+                <h3>IDIOMAS</h3>
+
+                <ul>
+                    <li><b>INGLÉS:</b> NIVEL: INTERMEDIO</li>
+                    <li><b>ITALIANO:</b> NIVEL: BÁSICO</li>
+                    
+                </ul>
+
+                <h3>EXPERIENCIA</h3>
+                <li><b>2021: </b> Insituto Geográfico Nacional</li>
+                <li><b>2018-2020: </b> Consultor y analista</li>
+                <li><b>2016:</b> Pasantia en Universidad Nacional de Salta</li>
 
 
-            
+                <h3>VOLUNTARIADO</h3>
+
+                <li><b>2018-2020: </b> Dictado de clases de matematica y fisica </li>
+                <li><b>2016:</b> Alumno auxiliar adscripto en Universidad Nacional de Salta</li>   
+
 
           </section>  
             <article>
@@ -117,15 +140,20 @@
 
             <br> <br>
 
-            <span> Seleccione la modalidad de trabajo</span>
+            <span> SELECCIONE LA MODALIDAD DE TRABAJO</span>
             <select name = "Modalidad de trabajo" id="" required> 
             <option value ="PRESENCIAL">REMOTO</option>
             <option value="HOME OFFICE">HOME OFFICE</option>
             <option value="MODO HIBRIDO">MODO HIBRIDO</option>
 
             </select> 
-            <br>
-            <br>
+            <br><br>
+
+            <span> ELIJA LA DISPONIBILIDAD HORARIA SOLICITADA</span><br><br> 
+            <input type="radio" name = "DISPONIBILIDAD" value="PART TIME" >PART TIME <br><br>
+            <input type="radio" name = "DISPONIBILIDAD" value="FULL TIME" >FULL TIME<br><br>
+
+
 
             <span> ELIJA EL PAGO EN TIPO DE MONEDA</span>
             <select name = "TIPO DE MONEDA" id=""> 
@@ -135,8 +163,7 @@
             <option value="BONO ALIMENTARIO">BONO ALIMENTARIO</option>
 
             </select> 
-            <br>
-            <br>
+            <br><br>
             <span> ELIJA EL TIPO DE PUESTO</span>
             <select name = "TIPO DE PUESTO" id="" required autocomplete=""> 
             <option value ="DISEÑO">DISEÑO</option>
@@ -145,8 +172,7 @@
 
             </select> 
 
-            <br>
-            <br>
+            <br><br>
             <span> BENEFICIOS A OFRECER </span>
             <input list = "Beneficios"> 
             
@@ -166,10 +192,20 @@
             <input type="text" id="otros">
             </label>
 
+           
+            <br><br>
+            
+            <span> ELIJA UNO O MAS DE LOS SIGUIENTES BENEFICIOS</span> <br><br>
+            <label><input type="checkbox" id="promo" value="check 1"> PROMOCION EN SUPER</label> <br><br>
+            <label><input type="checkbox" id="promo" value="check 2"> PROMOCION EN TURISMO</label> <br><br>
+            <label><input type="checkbox" id="promo" value="check 3"> 2X1 EN GASTRONOMIA</label> <br><br>
+            <label><input type="checkbox" id="promo" value="check 4"> PROMOCION EN MECANICA AUTOMOTRIZ</label> <br><br>
+            <label><input type="checkbox" id="promo" value="check 5"> DESCUENTOS EN SEGUROS</label> <br><br>
+
+
             <br><br>
             <input type="submit">
 
-               
             </form>
            
         </article>
